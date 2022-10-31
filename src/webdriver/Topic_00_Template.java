@@ -17,11 +17,12 @@ public class Topic_00_Template {
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 	}
 
 	@Test
 	public void TC_01_() {
-	
+		
 	}
 
 	@Test
