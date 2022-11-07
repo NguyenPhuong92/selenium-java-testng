@@ -10,7 +10,7 @@ public class Topic_02_Data_Type {
 		
 		//I- Kiểu dữ liệu nguyên thuỷ Primitive)
 		
-			// Số nguyên: byte short int long (ko có phần thập phân) - kích thước/độ rộng để lưu trữ dữ liệu từ nhỏ đến lớn
+			// Số nguyên: byte/short/int/long (ko có phần thập phân) - kích thước/độ rộng để lưu trữ dữ liệu từ nhỏ đến lớn
 		
 			// Số thực: float double (có phần thập phân)
 			float studentPoint = 9.5f;
@@ -29,7 +29,7 @@ public class Topic_02_Data_Type {
 			WebElement firstNameTextbox;
 			
 			// String
-			String firstName = "Automation Testing"
+			String firstName = "Automation Testing";
 					
 			// Object
 			Object peple;
@@ -38,10 +38,9 @@ public class Topic_02_Data_Type {
 			String [] studentName = {"Nguyễn Văn A","Lê Văn Hùng","Trần Thị Bé"};
 			
 			// Collection: List/ Set/ Queue
-			List<WebElement> checkboxes = driver.findElement(By.cssSelector(""));
+			
 					
 			// Map
-			Map<String, Integer> student = new HashMap<String, Integer>();
 			
 
 	}
